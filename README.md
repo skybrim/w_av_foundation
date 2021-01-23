@@ -14,3 +14,11 @@ sh build_fdk-aac.sh
 ```
 
 编译最终结果在 fdk-aac-fat-iOS 文件中
+
+### 编译x264
+
+```
+cd x264
+tar xvf x264-20191217-2245-stable.tar.gz
+sh build_x264.sh
+```
