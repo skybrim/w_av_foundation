@@ -22,3 +22,5 @@ cd x264
 tar xvf x264-20191217-2245-stable.tar.gz
 sh build_x264.sh
 ```
+
+编译最终结果在 x264-fat-iOS 文件中
