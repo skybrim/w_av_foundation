@@ -8,27 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B8B8578125BEC0600011462A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8578025BEC0600011462A /* AppDelegate.m */; };
-		B8B8578425BEC0600011462A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8578325BEC0600011462A /* SceneDelegate.m */; };
 		B8B8578725BEC0600011462A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8578625BEC0600011462A /* ViewController.m */; };
-		B8B8578A25BEC0600011462A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8578825BEC0600011462A /* Main.storyboard */; };
 		B8B8578C25BEC0600011462A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B8578B25BEC0600011462A /* Assets.xcassets */; };
 		B8B8578F25BEC0600011462A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8578D25BEC0600011462A /* LaunchScreen.storyboard */; };
 		B8B8579225BEC0600011462A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8579125BEC0600011462A /* main.m */; };
+		B8B857A525BECED50011462A /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B8579F25BECED50011462A /* libswscale.a */; };
+		B8B857A625BECED50011462A /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B857A025BECED50011462A /* libavformat.a */; };
+		B8B857A725BECED50011462A /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B857A125BECED50011462A /* libavcodec.a */; };
+		B8B857A825BECED50011462A /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B857A225BECED50011462A /* libavutil.a */; };
+		B8B857A925BECED50011462A /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B857A325BECED50011462A /* libavfilter.a */; };
+		B8B857AA25BECED50011462A /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B857A425BECED50011462A /* libswresample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B8B8577C25BEC0600011462A /* AVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8577F25BEC0600011462A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8B8578025BEC0600011462A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8B8578225BEC0600011462A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B8B8578325BEC0600011462A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B8B8578525BEC0600011462A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B8B8578625BEC0600011462A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B8B8578925BEC0600011462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8B8578B25BEC0600011462A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8B8578E25BEC0600011462A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8B8579025BEC0600011462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8B8579125BEC0600011462A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8B8579F25BECED50011462A /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = "../FFmpeg/FFmpeg-iOS/lib/libswscale.a"; sourceTree = "<group>"; };
+		B8B857A025BECED50011462A /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "../FFmpeg/FFmpeg-iOS/lib/libavformat.a"; sourceTree = "<group>"; };
+		B8B857A125BECED50011462A /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "../FFmpeg/FFmpeg-iOS/lib/libavcodec.a"; sourceTree = "<group>"; };
+		B8B857A225BECED50011462A /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "../FFmpeg/FFmpeg-iOS/lib/libavutil.a"; sourceTree = "<group>"; };
+		B8B857A325BECED50011462A /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = "../FFmpeg/FFmpeg-iOS/lib/libavfilter.a"; sourceTree = "<group>"; };
+		B8B857A425BECED50011462A /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "../FFmpeg/FFmpeg-iOS/lib/libswresample.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B857A525BECED50011462A /* libswscale.a in Frameworks */,
+				B8B857A625BECED50011462A /* libavformat.a in Frameworks */,
+				B8B857A725BECED50011462A /* libavcodec.a in Frameworks */,
+				B8B857A825BECED50011462A /* libavutil.a in Frameworks */,
+				B8B857A925BECED50011462A /* libavfilter.a in Frameworks */,
+				B8B857AA25BECED50011462A /* libswresample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +60,7 @@
 			children = (
 				B8B8577E25BEC0600011462A /* AVDemo */,
 				B8B8577D25BEC0600011462A /* Products */,
+				B8B8579E25BECED50011462A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,17 +77,27 @@
 			children = (
 				B8B8577F25BEC0600011462A /* AppDelegate.h */,
 				B8B8578025BEC0600011462A /* AppDelegate.m */,
-				B8B8578225BEC0600011462A /* SceneDelegate.h */,
-				B8B8578325BEC0600011462A /* SceneDelegate.m */,
 				B8B8578525BEC0600011462A /* ViewController.h */,
 				B8B8578625BEC0600011462A /* ViewController.m */,
-				B8B8578825BEC0600011462A /* Main.storyboard */,
 				B8B8578B25BEC0600011462A /* Assets.xcassets */,
 				B8B8578D25BEC0600011462A /* LaunchScreen.storyboard */,
 				B8B8579025BEC0600011462A /* Info.plist */,
 				B8B8579125BEC0600011462A /* main.m */,
 			);
 			path = AVDemo;
+			sourceTree = "<group>";
+		};
+		B8B8579E25BECED50011462A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B857A125BECED50011462A /* libavcodec.a */,
+				B8B857A325BECED50011462A /* libavfilter.a */,
+				B8B857A025BECED50011462A /* libavformat.a */,
+				B8B857A225BECED50011462A /* libavutil.a */,
+				B8B857A425BECED50011462A /* libswresample.a */,
+				B8B8579F25BECED50011462A /* libswscale.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +158,6 @@
 			files = (
 				B8B8578F25BEC0600011462A /* LaunchScreen.storyboard in Resources */,
 				B8B8578C25BEC0600011462A /* Assets.xcassets in Resources */,
-				B8B8578A25BEC0600011462A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,21 +171,12 @@
 				B8B8578725BEC0600011462A /* ViewController.m in Sources */,
 				B8B8578125BEC0600011462A /* AppDelegate.m in Sources */,
 				B8B8579225BEC0600011462A /* main.m in Sources */,
-				B8B8578425BEC0600011462A /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8B8578825BEC0600011462A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8B8578925BEC0600011462A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B8B8578D25BEC0600011462A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,13 +305,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../FFmpeg/FFmpeg-iOS/include";
 				INFOPLIST_FILE = AVDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../FFmpeg/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wiley.AVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,13 +326,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../FFmpeg/FFmpeg-iOS/include";
 				INFOPLIST_FILE = AVDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../FFmpeg/FFmpeg-iOS/lib";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wiley.AVDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
